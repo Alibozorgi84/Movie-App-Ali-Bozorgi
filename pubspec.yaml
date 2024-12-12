@@ -1,0 +1,33 @@
+name: movieapp
+description: A new Flutter project
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  image_picker: ^1.1.2
+  flutter_lints: ^2.0.0 # اضافه کردن این خط برای استفاده از linting
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/spiderman.jpg
+    - assets/drama1.jpg
+    - assets/oppenheimer.jpg
+    - assets/action1.jpg
+    - assets/action2.jpg
+    - assets/action3.jpg
+    - assets/action4.jpg
+    - assets/drama2.jpg
+    - assets/drama4.jpg
